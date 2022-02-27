@@ -45,10 +45,7 @@ public class Alumnes {
             mitjana = mitjana + notes[i];
         }
 
-        mitjanaFinal = mitjana / totalNotes;
-        DecimalFormat df = new DecimalFormat("#.#");
-        System.out.println("La nota mitja de la classe es: " + df.format(mitjanaFinal));
-        System.out.println("La nota mes gran es un " + df.format(mayor));
+
 
     }
 
